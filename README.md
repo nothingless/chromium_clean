@@ -9,6 +9,6 @@ So I wrote this little Chromium startup script that deletes the data after Chrom
 
 Be aware that if you rely on your browsing history in any way (saved passwords or auto form-filling or whatever) then running this might send you into deep trouble!
 
-If you find anything else this script leaves behind on disk and should be deleted as well, please make a pull request.
+If you find anything else Chromium leaves behind on disk and should be deleted as well, please make a pull request.
 
 One thing I am missing when using this script I cannot define custom search engines. Those seem to be kept in a sqlite file and so far I was too lazy to dabble with that. If you can think of an elegant solution, please make a pull request.
