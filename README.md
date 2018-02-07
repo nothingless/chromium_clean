@@ -5,7 +5,7 @@ My typical browsing workflow is that I don't keep any website related data aroun
 
 In Firefox this is easy to set up via the "Clear history when Firefox closes" setting. In Chromium however, the similar sounding option "Keep local data only until you quit your browser" never worked for me. I always noticed that there *is* data left from my previous browsing sessions. Starting Chromium in incognito mode also did not work.
 
-So I wrote this little Chromium startup script that deletes the data after Chromium is closed. I keeps the bookmarks and preferences files but not anything else.
+So I wrote this little Chromium startup script that deletes the data after Chromium is closed. It keeps the bookmarks and preferences files but not anything else.
 
 Be aware that if you rely on your browsing history in any way (saved passwords or auto form-filling or whatever) then running this might send you into deep trouble!
 
