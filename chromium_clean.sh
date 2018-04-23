@@ -3,7 +3,9 @@
 # me with a message 'Enter password to unlock your
 # keyring'.
 
-chromium-browser --password-store=basic %U
+chromium-browser --password-store=basic \
+                 --enable-dom-distiller \
+                 %U
 
 # Clear the cache
 
