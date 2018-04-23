@@ -16,6 +16,8 @@ rm -r ~/.cache/chromium
 
 find ~/.config/chromium/Default/    \
      -mindepth 1                    \
+     -name Extensions -prune -o     \
+     -name Local\ Extension\ Settings -prune -o     \
      ! -name 'Bookmarks'            \
      ! -name 'Preferences'          \
      ! -name 'Secure Preferences'   \
